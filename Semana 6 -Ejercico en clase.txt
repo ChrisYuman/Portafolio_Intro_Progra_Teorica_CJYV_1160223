@@ -1,0 +1,46 @@
+class Program
+
+{
+
+    static void Main(string[] args)
+
+    {
+
+        double total = 0;
+
+        double abono = 0.05;
+
+        double sueldo;
+
+        Console.WriteLine("Ingrese el sueldo: ");
+
+        sueldo = Convert.ToDouble(Console.ReadLine());
+
+        
+
+
+
+        if (sueldo>3000){
+
+
+
+            total = sueldo*abono;
+
+            Console.WriteLine("El abono es de: "+ total);
+
+        
+
+        }else
+
+        {
+
+            Console.WriteLine("El abono es de: " + sueldo);
+
+        }
+
+        Console.ReadKey();
+
+    }
+
+}
+
